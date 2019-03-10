@@ -13,10 +13,11 @@
 //creates & returns 4 phrases into Phrase objects
   createPhrase() {
 		const gamePhrases = [];
-	   gamePhrases.push(new Phrase('phrase one'));
-		gamePhrases.push(new Phrase('phrase two'));
-		gamePhrases.push(new Phrase('phrase three'));
-		gamePhrases.push(new Phrase('phrase four'));
+	   gamePhrases.push(new Phrase('A bird in the hand is worth two in the bush'));
+		gamePhrases.push(new Phrase('Raining cats and dogs'));
+		gamePhrases.push(new Phrase('Penny saved is a penny earned'));
+		gamePhrases.push(new Phrase('The chickens come home to roost'));
+    gamePhrases.push(new Phrase('Face the music'));
 		return gamePhrases;
 	};
 
